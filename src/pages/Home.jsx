@@ -8,7 +8,7 @@ const Home = () => {
         <div className="container mx-auto px-6 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">Welcome to ShopEase</h1>
           <p className="text-xl md:text-2xl mb-8 drop-shadow-md">Effortless shopping, joyful living.</p>
-          <button className="bg-white text-pink-600 px-6 py-3 font-semibold rounded-full shadow-xl hover:bg-pink-100 transition cursor-pointer" onClick={() => window.location = "/product"}>
+          <button className="bg-white text-pink-600 px-6 py-3 font-semibold rounded-full shadow-xl hover:bg-pink-100 transition cursor-pointer">
             Start Shopping
           </button>
         </div>
@@ -63,7 +63,7 @@ const Home = () => {
               { name: "Beauty", img: "https://images.pexels.com/photos/2537930/pexels-photo-2537930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
               { name: "Home Appliances", img: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" }
             ].map((cat, idx) => (
-              <div key={idx} className="p-6 border rounded-xl hover:shadow-md transition cursor-pointer" onClick={() => window.location = "/product"}>
+              <div key={idx} className="p-6 border rounded-xl hover:shadow-md transition cursor-pointer">
                 <img src={cat.img} alt={cat.name} className="mx-auto mb-4 rounded-lg h-28 w-28 object-cover" />
                 <h4 className="text-lg font-semibold">{cat.name}</h4>
               </div>
@@ -77,7 +77,7 @@ const Home = () => {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-4 text-pink-700">💥 Spring Sale Is Live!</h2>
           <p className="text-lg text-pink-800 mb-6">Up to 70% off on selected collections. Limited time!</p>
-          <button className="bg-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-700 transition cursor-pointer" onClick={() => window.location = "/product"}>
+          <button className="bg-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-700 transition cursor-pointer" >
             Grab Now
           </button>
         </div>
