@@ -22,11 +22,11 @@ const Home = () => {
             {[
               {
                 name: "Modern Headphones",
-                image: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-37a0-61f6-bcd2-0f8a81472dd6/raw?se=2025-04-20T20%3A59%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=2b8e4fc1-6952-50c6-8b43-7f7176b7a599&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-20T10%3A23%3A47Z&ske=2025-04-21T10%3A23%3A47Z&sks=b&skv=2024-08-04&sig=wrot/ZkExnV7L5tyNYw8W%2B3dtFNdpa9cdtv2r2rOzU0%3D",
+                image: "https://cdn5.vectorstock.com/i/1000x1000/85/99/modern-headphones-in-black-design-vector-46888599.jpg",
               },
               {
                 name: "Stylish Handbag",
-                image: "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-641c-61f7-b104-c1c769befe81/raw?se=2025-04-20T21%3A12%3A31Z&sp=r&sv=2024-08-04&sr=b&scid=2b70639c-8d08-5699-bf64-9f8616c09733&skoid=ae70be19-8043-4428-a990-27c58b478304&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-20T17%3A28%3A35Z&ske=2025-04-21T17%3A28%3A35Z&sks=b&skv=2024-08-04&sig=ANCiRBZTQtJ8A80wIRKd4%2BJwAVmBloi%2Bg5Xs/TLTvWo%3D",
+                image: "https://media.istockphoto.com/id/1271796113/photo/women-is-holding-handbag-near-luxury-car.jpg?s=612x612&w=0&k=20&c=-jtXLmexNgRa-eKqA1X8UJ8QYWhW7XgDiWNmzuuCHmM=",
               },
               {
                 name: "Smart Watch",
@@ -58,10 +58,10 @@ const Home = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Shop by Category</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { name: "Modern Furniture", img: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-db60-61f6-8fe1-c571a5c6cf81/raw?se=2025-04-20T20%3A55%3A38Z&sp=r&sv=2024-08-04&sr=b&scid=72a41655-faac-5122-a621-42affe75b693&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-20T11%3A51%3A47Z&ske=2025-04-21T11%3A51%3A47Z&sks=b&skv=2024-08-04&sig=JtBGFMd5XXTPKfO8uxgri%2B2VKtT9a7a83kO/zkFKEJk%3D" },
-              { name: "Premium Perfumes", img: "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-98e0-61f7-aca1-fb9a87276859/raw?se=2025-04-20T21%3A07%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=12e427d8-6b18-501a-b91d-f66ccc67b3bd&skoid=ae70be19-8043-4428-a990-27c58b478304&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-20T17%3A28%3A36Z&ske=2025-04-21T17%3A28%3A36Z&sks=b&skv=2024-08-04&sig=5ENsAVlp3Jrd%2B1S16931tsJfeIDO7fSSmxTx78sp8Kc%3D" },
-              { name: "Beauty", img: "https://images.pexels.com/photos/2537930/pexels-photo-2537930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-              { name: "Home Appliances", img: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" }
+              { name: "Modern Furniture", img: "https://media.istockphoto.com/id/1285065780/photo/furniture-showroom-with-plants-spotlights-and-brick-wall.jpg?s=612x612&w=0&k=20&c=5X2jXOu4kAEW978_fNmdLGcnyqFjyl06Z-WDlX_FDVU=" },
+              { name: "Premium Perfumes", img: "https://images.unsplash.com/photo-1593487568720-92097fb460fb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D" },
+              { name: "Beauty", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZ4fB_aEHAlz04an4rX1adyYvyW0_5FXLhg&s" },
+              { name: "Home Appliances", img: "https://media.istockphoto.com/id/1211554164/photo/3d-render-of-home-appliances-collection-set.jpg?s=612x612&w=0&k=20&c=blm3IyPyZo5ElWLOjI-hFMG-NrKQ0G76JpWGyNttF8s=" }
             ].map((cat, idx) => (
               <div key={idx} className="p-6 border rounded-xl hover:shadow-md transition cursor-pointer">
                 <img src={cat.img} alt={cat.name} className="mx-auto mb-4 rounded-lg h-28 w-28 object-cover" />
