@@ -30,7 +30,7 @@ const Home = () => {
               },
               {
                 name: "Smart Watch",
-                image: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-5190-61f6-9e5c-8dae72c922e7/raw?se=2025-04-20T20%3A43%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=874d62ab-4988-54c2-b739-ca2baff200f4&skoid=3f3a9132-9530-48ef-96b7-fee5a811733f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-20T17%3A27%3A39Z&ske=2025-04-21T17%3A27%3A39Z&sks=b&skv=2024-08-04&sig=z2AXpncUbkhOAZJrfWqbI7/b6Ez7tsQtEeAHzuyhAvc%3D",
+                image: "https://hf-store.pk/wp-content/uploads/2024/01/Smartwatch-Da-Apple.jpeg",
               },
               {
                 name: "Elegant Sunglasses",
