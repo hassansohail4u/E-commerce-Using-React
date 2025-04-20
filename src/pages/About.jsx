@@ -129,7 +129,7 @@ const About = () => {
           <p className="mb-8 text-lg">
             Join millions of happy customers shopping smarter with ShopEase.
           </p>
-          <button className="bg-white text-indigo-700 font-semibold px-8 py-4 rounded-full hover:bg-gray-100 transition">
+          <button className="bg-white text-indigo-700 font-semibold px-8 py-4 rounded-full hover:bg-gray-100 transition cursor-pointer" onClick={() => window.location = "/product"}>
             Explore Our Products
           </button>
         </div>

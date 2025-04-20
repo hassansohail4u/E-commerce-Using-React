@@ -143,7 +143,7 @@ const Contact = () => {
       </section>
 
       {/* CTA SECTION */}
-      <section className="py-20 bg-indigo-600 text-white text-center">
+      {/* <section className="py-20 bg-indigo-600 text-white text-center">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-extrabold mb-4">Stay Connected With ShopEase</h2>
           <p className="mb-6 text-xl max-w-xl mx-auto">
@@ -160,7 +160,39 @@ const Contact = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section className="py-20 bg-indigo-600 text-white text-center">
+  <div className="container mx-auto px-6">
+    <h2 className="text-4xl font-extrabold mb-4">Stay Connected With ShopEase</h2>
+    <p className="mb-6 text-xl max-w-xl mx-auto">
+      Subscribe to our newsletter for the latest updates, deals, and community news.
+    </p>
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <input
+        type="email"
+        placeholder="Enter your email"
+        className="px-6 py-3 rounded-3xl w-full sm:w-80 bg-white text-black placeholder-gray-500 focus:outline-none"
+      />
+      <button className="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+        Subscribe
+      </button>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };

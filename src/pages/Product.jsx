@@ -39,7 +39,7 @@ function Product() {
                 </div>
             }
             {loading &&
-                <div className="flex h-[75vh] justify-center items-center">
+                <div className="flex h-[75vh] justify-center items-center my-11">
                     <Riple color="blue" size="large" text="" textColor="" />
                 </div>
             }

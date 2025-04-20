@@ -9,7 +9,7 @@ function SingleProduct() {
     return (
         <>
             {data &&
-                <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 space-y-6 my-10 ">
+                <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 space-y-6 my-12 ">
                     <div className="flex flex-col md:flex-row items-center ">
                         <div className="w-full md:w-1/3 mb-4 md:mb-0">
                             <img

@@ -10,7 +10,7 @@ const ProductCard = ({ image, title, description, price , id}) => {
         <img
           src={image}
           alt={title}
-          className="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-105 cursor-pointer"
         />
         <div className="absolute top-4 left-4 bg-gradient-to-r from-pink-500 to-yellow-500 text-white font-bold text-md px-4 py-1 rounded-full shadow-md animate-pulse">
           ${price}
@@ -18,10 +18,10 @@ const ProductCard = ({ image, title, description, price , id}) => {
       </div>
 
       <div className="p-6">
-        <h3 className="text-xl font-extrabold text-gray-800 mb-2 group-hover:text-indigo-600 transition">
+        <h3 className="text-xl font-extrabold text-gray-800 mb-2 group-hover:text-indigo-600 transition cursor-pointer">
           {title}
         </h3>
-        <p className="text-gray-600 text-sm mb-6">
+        <p className="text-gray-600 text-sm mb-6 cursor-pointer">
           {description.length > 120 ? `${description.slice(0, 117)}...` : description}
         </p>
 
